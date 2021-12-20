@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+</head>
+<body>
+  <form action="#" target="_blank" method="get">
+    <p>
+      Seu nome: <br>
+      <label for="nome"></label>
+      <input type="text" name="nome" id="nome" placeholder="Nome...">
+    </p>
+
+    <p>
+      <label for="date">Data de Nascimento:</label> <br>
+      <input type="date" id="date" name="date" value="2001-11-08">
+    </p>
+
+    <p>
+      <label for="datetime">Data</label> <br>
+      <input type="datetime-local" id="datetime" name="datetime" value="2021-04-20T20:00">
+    </p>
+
+    <p>
+      <label for="time">Horas:</label> <br>
+      <input type="time" id="time" name="time" value="20:00:01">
+    </p>
+
+    <p>
+      <label for="cor">Cor Favorita:</label> <br>
+      <input type="color" id="cor" name="cor" value="#4dd2ff">
+    </p>
+
+    <p>
+      <label for="email">E-mail</label> <br>
+      <input type="email" id="email" name="email" placeholder="email@email.com">
+    </p>
+
+    <p>
+      <label for="foto">Sua foto:</label> <br>
+      <input type="file" id="foto" name="foto" accept=".png" multiple>
+    </p>
+
+    <p>
+      <label for="number">Número</label> <br>
+      <input type="number" id="number" name="number" placeholder="Digite um número" max="200" min="10" step="5">
+    </p>
+
+    <p>
+      <label for="password">Senha:</label> <br>
+      <input type="password" id="password" name="passwotd" placeholder="Digite sua senha:">
+    </p>
+
+    <p>
+      <label for="range">Range</label> <br>
+      <input type="range" id="range" name="range">
+    </p>
+
+    <p>
+      <label for="url">Url da página</label> <br>
+      <input type="url" id="url" name="url" placeholder="URL">
+    </p>
+
+
+    <p>
+      <button type="button">Enviar</button>
+      <button type="reset">Resetar</button>
+    </p>
+  </form>
+</body>
+</html>
