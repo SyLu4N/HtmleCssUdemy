@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+  <style>
+    .responsivo{
+      overflow-x: auto; /* Rolagem x */
+    }
+
+    table{
+      border-collapse: collapse; /* Junta as linhas da tabela */
+      width: 300px; /* Ocupando a tela completa */
+    }
+
+    table td, table th{ /* Mostrando a tabela */
+      border: 1px solid #ccc;
+      padding: 5px;
+    }
+
+    table caption{
+      caption-side: top;  /* Posição da descrição */
+      text-align: left;
+      font-style: italic;
+      font-size: 14px;
+    }
+    
+    table tfoot{
+      background-color: #ddd;
+    }
+
+    body{
+      font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa architecto dicta excepturi illo sequi illum porro corrupti id atque! Placeat quasi consectetur voluptate animi. A quasi illo beatae recusandae cupiditate.</p>
+  <div class="responsivo">
+    <table>
+      <caption>Descrição da Tabela</caption>
+      <thead> <!-- Cabeça da tabela -->
+        <tr> <!-- Vertical -->
+          <th>Maiores Inscritos</th> <!-- horizontal -->
+          <th>Mais tempo de Viewrs</th>
+          <th>Inscritos mais antigos</th>
+        </tr>
+      </thead>
+      <tbody> <!-- Corpo da tabela -->
+        <tr>
+          <td>Luan</td> <!-- horizontal -->
+          <td>Lucas</td>
+          <td>Corpo 3</td>
+        </tr>
+        <tr> <!-- Vertical -->
+          <td colspan="2">Nicoli</td> <!-- horizontal -->
+          <td>Viviane</td>
+        </tr>
+        <tr> <!-- Vertical -->
+          <td>Corpo 1</td>
+          <td>Corpo 2</td>
+          <td>Corpo 3</td>
+        </tr>
+      </tbody>
+      <tfoot> <!-- Rodapé -->
+        <tr>
+          <td colspan="2" rowspan="2"></td>
+          <td>Total:</td>
+        </tr>
+        <tr>
+          <td>Total:</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+</body>
+</html>
