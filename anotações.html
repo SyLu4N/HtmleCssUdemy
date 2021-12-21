@@ -164,26 +164,13 @@ body{
   <!-- href= url / target= abrir em nova aba ou não / rel= explicação para o google --> 
   <!-- Tipos de target: _blank (nova aba) / _self (mesma aba) -->
   <!-- Tipos de rel: next (próxima aba) / external (fora do site) -->
-<style>
+--------------------------------------------------------------------------
+Pseudo-Classes
 
-  a{
-    text-decoration: none;
-  }
-
-  a:visited{ /* Se já visitado */
-    color: blueviolet;
-  }
-
-  a:hover{/* Interação com o mause */
-    color: black;
-    text-decoration: underline;
-  }
-
-  a:active{/* Quando já clickado */
-    color: darkblue;
-  }
-
-</style>
+active = <!-- Já clickado -->
+hover = <!-- Interação com o mause -->
+visited = <!-- Quando já visitado -->
+not(.meio) = <!-- Todos menos a classe meio -->
 --------------------------------------------------------------------------
 Formulário
 
@@ -192,6 +179,7 @@ placeholder = <!-- mensagem informativa dentro da caixa  -->
 values = <!-- Define um valor para a marcação -->
 required  = <!-- Precisa ser marcado ou preenchido -->
 checked = <!-- Já marcado -->
+disable = <!-- Desativada -->
 --------------------------------------------------------------------------
 Target=
 
