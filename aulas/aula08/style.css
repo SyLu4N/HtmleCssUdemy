@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .grid{
@@ -18,19 +19,32 @@
 
 .grid .col{
   width: 33.33%;
-  height: 300px;
   float: left;
   padding: 20px;
 }
 
 .grid .col-content{
   width: 100%;
-  height: 100%;
   float: left;
-  background-color: red;
 }
 
+.col-content::first-letter{
+  font-size: 40px;
+  float: left;
+  margin-right: 5px;
+}
 
+@media (max-width: 850px){
+  .grid .col{
+    width: 50%;
+  }
+}
+
+@media (max-width: 550px){
+  .grid .col{
+    width: 100%;
+  }
+}
 
 /* p{
   clear: left;
