@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.flex-container{
+  background-color: yellow;
+  height: 650px;
+  display: flex;
+  flex-direction: row; /* Padrão */
+  justify-content: space-between; /* Padrão */
+  align-items: flex-start; /* Padrão */
+  flex-wrap: nowrap; 
+  /* gap: 30px;  Padding igual para todods os elementos */
+}
+
+.flex-item{
+  color: white;
+  width: 100%;
+  background-color: red;
+}

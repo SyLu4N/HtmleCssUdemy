@@ -86,6 +86,35 @@ width: 100vh;
 
 width: 100%; = Ocupa 100% do espaço. Serve para imagens 
 --------------------------------------------------------------------------
+Display: Flex
+
+flex-wrap: wrap = <!-- Permite quebrar a linha do meu flex -->
+
+
+flex-basis: 320px = <!-- Tamanho do meu elemento -->
+flex-grow: 1 proporção = <!-- Usa todo espaço para dividir os elementos -->
+flex-grow: 0 not = <!-- Não usa todo espaço para dividir os elementos -->
+flex-shrink: 1 proporção = <!-- Nosso conteúdo diminuiu -->
+flex-shrink: 0 not = <!-- Nosso conteúdo não diminuiu -->
+flex: flex-grow > flex-shrink > flex-basis <!-- Shorthand do flex -->
+
+<h1>Aling-Items / Aling-Content</h1>
+
+Aling-Items: flex-start <!-- começa em cima e pequeno -->
+Aling-Items: flex-end <!-- em baixo -->
+Aling-Items: center <!-- Centralizado no meio do elemento pai -->
+Aling-Items: baseline <!-- Alinha pelo texto -->
+Aling-Items: stretch <!-- Estica até a altura máxima -->
+
+<h1>Justify-Content</h1>
+
+Justify-Content: flex-start = <!-- Começo do conteúdo -->
+Justify-Content: flex-end = <!-- Final do conteúdo -->
+Justify-Content: Center = <!-- Centraliza o conteúdo -->
+Justify-Content: space-around = <!-- Espalha o conteúdo com espaços -->
+Justify-Content: space-between = <!-- Espalha o conteúdo com espaços exatos -->
+Justify-Content: space-evenly = <!-- Espalha o conteúdo com espaços iguais -->
+--------------------------------------------------------------------------
 <h1>F O N T S</h1>
 
 <style>
