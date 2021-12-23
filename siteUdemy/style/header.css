@@ -1,0 +1,38 @@
+@charset "UTF-8";
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: sans-serif;
+
+}
+
+header{
+  display: flex;  
+  justify-content: space-between;
+  padding: 15px 50px;
+  align-items: center;
+  margin: auto;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+.logo h1{
+  font-variant: small-caps;
+}
+
+.nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nav ul a{
+  text-decoration: none;
+  color: black;
+  margin: 0 3px;
+}
