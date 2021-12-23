@@ -36,7 +36,8 @@ Comando
   <br> /* Quebra linha */
   &lt /* < */ 
   &gt /* > */
-
+  repeat(10, 1fr) /* Vai repetir 10x */
+  z-index: 1: /* Fica na frente dos outros conteúdos. */
 ::after or ::before{ /* after Depois > before Antes */
       content: '»' ; /* Adiciona itens */ ;}
 
@@ -70,7 +71,20 @@ Comando
   }
 </style>
 --------------------------------------------------------------------------
+Grid
+
+display: grid;
+grid-row = <!-- fileira -->
+grid-column = <!-- Colunas -->
+grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); <!-- Auto responsivo -->
+--------------------------------------------------------------------------
 Altura e Largura
+
+overflow: hidden; /* Oque passar do texto é escondido */
+overflow: scroll; /* Barra de rolagem para oque passar */
+overflow: auto; /* Caso passe, cria a barra de rolagem */
+
+1fr = Ocupa o restante do espaço
 
 height: 100px; = Altura 
 width: 100px; = Largura 
@@ -129,7 +143,7 @@ Justify-Content: space-evenly = <!-- Espalha o conteúdo com espaços iguais -->
     <pre> utiliza os espaços e tudo </pre>
     <code> para citar códigos </code>
     <blockquote cite="site ou autor"> citação maiores
-      não pode ir em p
+    /* não pode ir em p */
     <q cite="site ou autor"> citação </q>
     <sub> Rebaixado </sub>
     <sup> Elevado </sup>
@@ -172,6 +186,8 @@ body{
   /* Lado > Baixo > Borrar > Cor */
   background: black url(imagem.png) center center no-repeat cover fixed;
   /* Cor > tipo de fundo > posição > repetição > size(n pega) > attachment */
+  grid-area: um / um / quatro / tres; 
+  /* Linha > Coluna > Linha > Coluna */
 }
 
 </style>
