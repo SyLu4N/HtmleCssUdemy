@@ -5,9 +5,13 @@
   box-sizing: border-box;
 }
 
+:root{
+  --corpadrao: #0A1128;
+}
+
 html{
   font-family: sans-serif;
-
+  scroll-behavior: smooth;
 }
 
 header{
@@ -17,22 +21,26 @@ header{
   align-items: center;
   margin: auto;
   position: fixed;
-  background-color: white;
+  background-color:white;
   width: 100%;
 }
 
-.logo h1{
+.logo h1 a{
   font-variant: small-caps;
+  font-size: 2.3rem;
+  color: var(--corpadrao);
+  text-decoration: none;
 }
 
-.nav ul li{
+.nav ul{
+  display: flex;
   list-style: none;
-  display: inline-block;
   margin: 0 10px;
 }
 
-.nav ul a{
+.nav a{
   text-decoration: none;
-  color: black;
-  margin: 0 3px;
+  color: var(--corpadrão);
+  margin: 0 10px;
+  display: block;
 }

@@ -1,0 +1,54 @@
+@charset "UTF-8";
+:root{
+    --cortable: rgb(235, 235, 235);
+    --corpadrão: #0A1128;
+}
+
+.five{
+color: var(--corpadrão);
+text-align: center;
+margin: 100px auto;
+}
+
+.five h1{
+margin-bottom: 30px;
+}
+
+.five p{
+text-align: justify;
+max-width: 700px;
+margin: auto;
+}
+
+.responsivo{
+overflow-x: auto; /* Rolagem x */
+}
+
+table{
+border-collapse: collapse; /* Junta as linhas da tabela */
+width: 100%; /* Ocupando a tela completa */
+margin-top: 30px;
+margin: 30px auto;
+max-width: 700px;
+}
+
+table thead{
+background-color: var(--cortable);
+}
+
+table td, table th{ /* Mostrando a tabela */
+border: 1px solid var(--cortable);
+padding: 5px;
+text-align: left;
+font-size: 1.5rem;
+}
+
+table caption{
+caption-side: top; 
+text-align: left;
+font-style: italic;
+font-size: 1.3vw;
+margin:0 0 15px 0;
+color: #596066;
+font-weight: 100;
+}

@@ -1,0 +1,15 @@
+
+.sixs p{
+margin-top:50px;
+max-width: 550px;
+font-size: 2vw;
+}
+
+.gridForm{
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+border: 3px dashed black;
+justify-content: flex-start;
+}
