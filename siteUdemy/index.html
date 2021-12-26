@@ -22,8 +22,8 @@
         <li><a href="#">Intro</a></li>
         <li><a href="#top3">TOP 3</a></li>
         <li><a href="#galeria">Galeria</a></li>
-        <li><a href="#">Trabalhos</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#novidade">Novidades</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -76,7 +76,7 @@
       </div>
     </aside>
 
-    <article class="back four">
+    <article class="back four" id="novidade">
       <h1>TOP 3 Novidades </h1>
       <p>Aqui estão alguns trabalhos recentes.</p>
       <div class="grid">
@@ -144,18 +144,39 @@
 
       </table>
     </aside>
-    <article class="sixs back">
+    <article class="sixs back" id="contato">
       <h1>CONTATE-NOS</h1>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, esse! Minima, nostrum fugit nesciunt eaque cum sapiente, ipsa, vero eos tempora voluptatibus molestias unde laboriosam neque ipsam necessitatibus ducimus. Tempora!</p>
-      <p>Formulário de Contato</p>
+      <p class="formComentario">Formulário de Contato</p>
 
-      <form action="#" class="gridForm">
-        <legend>Primeiro nome</legend><br>
-        <input type="text" name="pNome" placeholder="Primeiro nome" id="">
-        <legend>Último nome</legend><br>
-        <input type="text" name="uNome" id="" placeholder="Ultimo nome">
+      <form action="#" class="gridForm" target="_blank">
+        <div class="form">
+          <legend>Primeiro nome</legend>
+          <input type="text" name="pNome" class="inputText" placeholder="Primeiro nome" id="">
+        </div>
+        <div class="form">
+          <legend>Último nome</legend>
+          <input type="text" name="uNome" class="inputText" placeholder="Último nome">
+        </div>
+        <div class="form">
+          <legend>E-mail</legend>
+          <input type="email" class="inputText" name="email" placeholder="Seu E-mail" required>
+        </div>
+        <div class="formArea">
+          <legend>Sua mensagem</legend>
+          <input name="textArea" class="inputText" id="textArea" minlength="10" maxlength="200" required>
+        </div>
+
+        <div class="button">
+          <button type="button">Enviar mensagem</button>
+        </div>
       </form>
+      
     </article>
+
+    <footer>
+      <p>Feito com ❤️ por <em><a href="https://pt-br.facebook.com/luan.simoes.5203">Luan Simões</a></em></p>
+    </footer>
   </main>
   
 </body>
