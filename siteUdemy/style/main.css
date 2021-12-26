@@ -65,6 +65,14 @@ padding-bottom: 100px;
   padding-bottom: 100px;
 }
 
+.tree > p{
+  padding-bottom: 50px;
+}
+
+.four > p{
+  padding-bottom: 50px;
+}
+
 footer{
   display: flex;
   height: 150px;
