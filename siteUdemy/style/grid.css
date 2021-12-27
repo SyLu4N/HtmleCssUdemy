@@ -2,7 +2,7 @@
 
 .grid{
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: repeat(auto-fill, minmax(1fr, 300px));
 counter-reset: contador;
 }
 
@@ -31,51 +31,55 @@ margin-bottom: 100px;
 .grid div{
 margin-bottom: 10px;
 margin-right: 30px;
-margin-top: 50px;
+margin-top: 100px;
 }
 
 .galeria{
-padding-left: 70px;
+padding-left: 50px;
 padding-top: 100px ;
 }
 
-.grid2{
+.gridGaleria{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 }
 
-.grid2 div{
+.gridGaleria div{
 min-height: 300px;
 max-height: 300px;
 margin:50px 30px 10px 0px;
 transition-duration: 300ms;
 }
 
+.anima{
+    border-radius: 1px;
+}
+
 .anima:hover{
     transform: rotate(4deg);
 }
 
-.grid2 div:nth-child(1){
+.gridGaleria div:nth-child(1){
     background-image: url(https://images.nappy.co/uploads/large/7z8a4652-216240540039ysgwc4sml8howtkpiqnufmt2zlr7ukg5zjwl0ukpuxbtymchm1r13pdlkmpdk56scmldqu6ww5ihtt55yytwxzq8muze09z34qh.jpg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
 }
-.grid2 div:nth-child(2){
+.gridGaleria div:nth-child(2){
     background-image: url(https://images.nappy.co/uploads/large/high-res-0291-21592073806mjdp46m93upebmpzozjumootrfv3s3vakqxfj0ee7tijthjzkxezgg6pb320qygyvlpw3doh05el4drdu4weoib9f2tj5g63bfjn.jpg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
 }
-.grid2 div:nth-child(3){
+.gridGaleria div:nth-child(3){
     background-image: url(https://images.nappy.co/uploads/large/105981622175281ixlsp9coz4renpvq1symi729mubdsktg2p3kjx6hiafutacgqpqmdazpsbyonarpapqfwezavlu4ounkhpiyityeiulpkrextqr4.jpeg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
 }
-.grid2 div:nth-child(4){
+.gridGaleria div:nth-child(4){
     background-image: url(https://images.nappy.co/uploads/large/7z8a4648-21624054008wcv7stqkzucbh9kiz91ubzdlxauedxlz3jvchv0mrzd8fsyxjy9m3gzobb3vherahlhb7lgpwm11dvah8v5ckxylpfsz4wcjng44.jpg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
 }
-.grid2 div:nth-child(5){
+.gridGaleria div:nth-child(5){
     background-image: url(https://images.nappy.co/uploads/large/21595603663sxxph4bwff7zusaevngn8fnjqxzqetoy0mzcnksyglecxayuyjmqc5vfe7ez05priaddshdame7jpvthz7fwks7g27gpk4wco58m.jpg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
 }
-.grid2 div:nth-child(6){
+.gridGaleria div:nth-child(6){
     background-image: url(https://images.nappy.co/uploads/large/7z8a4609-21624053995cazjmrvzhhbfetpzb1kdg4vj0o3tbrq6znmcqvdwgfp65ngjoexaqcbqjv7lromhfrt3ah1zyghe2uhwhwbt9a6jclr8mrf58ore.jpg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
     margin-bottom: 100px;

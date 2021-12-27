@@ -10,16 +10,16 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
-main{
+.main{
   font-family: 'Open Sans', sans-serif;
 }
 
-main h1{
+.main h1{
   font-size: 2.3rem;
 }
 
-main p{
-  font-size: 1.8rem;
+.main p{
+  font-size: 2rem;
 }
 
 .back{
@@ -28,34 +28,77 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 color: white;
 padding: 50px;
-padding-left: 70px;
+padding-left: 50px;
 padding-top: 100px;
 padding-bottom: 100px;
+overflow-x: hidden;
 }
 
-.picture{
-  position: relative;
-}
-
-img{
-  position: absolute;
-  right: 0;
-  top: 0;
-  max-width: 50%;
+.back sup{
+  line-height: normal;
 }
 
 .one h1{
-  font-size: 4.5vw;
+  font-size: 4.2rem;
   line-height: 1.4em;
+  flex-wrap: nowrap;
 }
 
 .one p{
   margin-top:30px;
-  max-width: 32rem;
-  font-size: 2vw;
-  text-align: justify;
+  max-width: 100%;
+  font-size: 2rem;
+  text-align: left;
 }
 
+.container{
+  display: flex;  
+  padding: 15px 0;
+  padding-left: 0px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-items: center;
+  gap: 20px;
+}
+
+.one div{
+  max-width: 550px;
+  min-width: 387px;
+}
+
+.textOne{
+  width: 50%;
+}
+
+.img01 img{
+  display: block;
+  width: 100%;
+  min-width: 500px;
+  margin: auto;
+  max-height: 600px;
+  min-height: 500px;
+}
+
+@media (max-width: 1010px){
+  .container{
+    display: block;
+  }
+  .back{
+    padding-bottom: 10px;
+  }
+
+  .img01{
+    padding-top: 20px;
+  }
+  
+  .img01 img{
+    width: 100%;
+    margin: auto;
+    min-width: auto;
+    min-height: auto;
+    border: 3px white dashed;
+  }
+}
 .two h1{
   padding-top:100px ;
   font-size: 4.5vw;
@@ -80,7 +123,7 @@ img{
   padding-bottom: 50px;
 }
 
-.four > p{
+.novidades > p{
   padding-bottom: 50px;
 }
 

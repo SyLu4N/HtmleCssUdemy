@@ -12,6 +12,7 @@
   <title>
     Página de Abertura simples</title>
 </head>
+
 <body>
   <header>
     <div class="logo">
@@ -27,28 +28,38 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <section class="back one"> 
+<!-- ------------------------------- HEADER ------------------------------------ -->
+  <section class="back"> 
+    <article class="main container">
 
-      <div class="picture">
-        <img src="file:///C:/Users/Luan/Downloads/undraw_static_assets_rpm6%20(1).svg" alt="Ilustração CSS e HTML" class="img01">
+      <div class="content one">
+        <div class="textOne">
+          <h1>JANEIRO<br> TRAZ-NOS <br> FIREFOX 85</h1>
+          <p>Para encerrar janeiro, temos o orgulho de apresentar o lançamento do Firefox 85. <br> Nesta versão, oferecemos suporte para a pseudo classe:
+          focus-visible em CSS e devtools associados, e a remoção completa do suporte a Flash do Firefox.</p>
+        </div>
       </div>
-      <div>
-        <h1>JANEIRO<br> TRAZ-NOS <br> FIREFOX 85</h1>
-        <p>Para encerrar janeiro, temos o orgulho de apresentar o lançamento do Firefox 85. Nesta versão, oferecemos suporte para a pseudo classe:
-        focus-visible em CSS e devtools associados, e a remoção completa do suporte a Flash do Firefox.</p>
+      <div class="content img01">
+        <img src="img/undraw_static_assets_rpm6.svg" alt="Ilustração CSS e HTML">
       </div>
-      
-    </section>
-    <section class="two">
+
+    </article>
+  </section>
+<!-- --------------------------------- One ------------------------------------- -->
+  <section class="two">
+    <article class="main">
       <h1>TOP 3 Trabalhos</h1>
       <p>O lançamento de Macs baseados em silicone da Apple no final do ano passado gerou uma enxurrada de cobertura de notícias e algumas surpresas no desempenho da máquina. Esta postagem detalha algumas informações básicas sobre a experiência de portar o Firefox para rodar nativamente nessas CPUs.</p>
       <p>Começaremos com algumas informações sobre a transição do Mac e daremos uma visão geral dos componentes internos do Firefox que precisavam saber sobre a nova arquitetura, antes de passar para o conceito de binários universais.</p>
       <p>Em seguida, explicaremos como o DRM / EME funciona na nova plataforma, falaremos sobre nossa experiência com o macOS Big Sur e discutiremos vários problemas de atualização com os quais tivemos que lidar. Concluiremos com o lançamento e uma visão geral de várias outras melhorias que estão em desenvolvimento.</p>
-    </section>
-    <div class="back tree" id="top3">
+    </article>
+  </section>
+
+  <section class="back tree" id="top3">
+    <article class="main">
       <h1>TOP 3 Novidades </h1>
       <p>Aqui estão alguns trabalhos recentes.</p>
+
       <div class="grid">
         <div class="contador"><p>
           <h2>Primeiro</h2>
@@ -57,136 +68,148 @@
 
         <div class="contador">
           <h2>Segundo</h2>
-           <p> Em outro site, sugiro ter um pop-up perguntando onde inserir a caixa na linha (no início ou no final), qual título dar à caixa, que texto colocar na caixa e para onde a caixa deve ter um link. A caixa inteira deve servir como um link para a página de destino.</p>
+          <p> Em outro site, sugiro ter um pop-up perguntando onde inserir a caixa na linha (no início ou no final), qual título dar à caixa, que texto colocar na caixa e para onde a caixa deve ter um link. A caixa inteira deve servir como um link para a página de destino.</p>
         </div>
 
         <div class="contador">
           <h2>Terceiro</h2>
-           <p> Você também pode incluir um atributo de tipo contendo o tipo MIME do recurso, para que um navegador possa ver rapidamente quais recursos estão em oferta e ignorar aqueles que não são compatíveis</p>
+          <p> Você também pode incluir um atributo de tipo contendo o tipo MIME do recurso, para que um navegador possa ver rapidamente quais recursos estão em oferta e ignorar aqueles que não são compatíveis</p>
         </div> 
-        
+      </div>
+
+    </article>
+  </section>
+
+  <aside class="galeria main" id="galeria">
+    <div>
+      <h1>Galeria</h1>
+      <p>Aqui estão algumas das minhas fotos.</p>
+      <div class="gridGaleria">
+        <div class="anima"></div>
+        <div class="anima"></div>
+        <div class="anima"></div>
+        <div class="anima"></div>
+        <div class="anima"></div>
+        <div class="anima"></div>
       </div>
     </div>
+  </aside>
 
-    <aside class="galeria" id="galeria">
-      <h1>Galeria</h1>
-      <p>
-        Aqui estão algumas das minhas fotos.</p>
-      <div class="grid2">
-        <div class="anima"></div>
-        <div class="anima"></div>
-        <div class="anima"></div>
-        <div class="anima"></div>
-        <div class="anima"></div>
-        <div class="anima"></div>
-      </div>
-    </aside>
-
-    <article class="back four" id="novidade">
-      <h1>Novidades </h1>
-      <p>Aqui estão alguns trabalhos recentes.</p>
+  <section class="back novidades" id="novidade">
+    <article class="main">
+      <h1 class="novidadesBottom">Novidades </h1>
       <div class="grid">
+
         <div class="contador">
           <h2> Primeiro</h2>
-            <p>Este botão adicionaria uma caixa à linha de caixas de conteúdo principal abaixo do texto de introdução. Isso deve colocar a caixa lá, independentemente de onde o usuário está escrevendo no momento.</p>
+          <p>Este botão adicionaria uma caixa à linha de caixas de conteúdo principal abaixo do texto de introdução. Isso deve colocar a caixa lá, independentemente de onde o usuário está escrevendo no momento.</p>
         </div>
 
         <div class="contador">
           <h2> Segundo</h2> 
-           <p> Em outro site, sugiro ter um pop-up perguntando onde inserir a caixa na linha (no início ou no final), qual título dar à caixa, que texto colocar na caixa e para onde a caixa deve ter um link. A caixa inteira deve servir como um link para a página de destino. </p>
-       </div>
+          <p> Em outro site, sugiro ter um pop-up perguntando onde inserir a caixa na linha (no início ou no final), qual título dar à caixa, que texto colocar na caixa e para onde a caixa deve ter um link. A caixa inteira deve servir como um link para a página de destino. </p>
+        </div>
 
         <div class="contador">
           <h2> Terceiro</h2> 
-           <p> Você também pode incluir um atributo de tipo contendo o tipo MIME do recurso, para que um navegador possa ver rapidamente quais recursos estão em oferta e ignorar aqueles que não são compatíveis</p>
+          <p> Você também pode incluir um atributo de tipo contendo o tipo MIME do recurso, para que um navegador possa ver rapidamente quais recursos estão em oferta e ignorar aqueles que não são compatíveis</p>
         </div> 
-        
-      </div>
-    </article>
-
-    <aside class="five">
-      <h1>PREÇOS</h1>
-      <p>Confira a baixo a tabela com os preços dos produtos anunciados acima, vale a resalva que algum valores poderem ter alteração dependendo do tipo de produto, quantidade e até mesmo endereço do comprador. Qualquer dúvida pode entrar em contato conosco pelo final da página.</p>
-      <table>
-      <caption>Tabela de preços</caption>
-      <thead> 
-        <tr> 
-          <th>Title 1</th> 
-          <th>Title 2</th>
-          <th>Title 3</th>
-        </tr>
-      </thead>
-      <tbody> 
-        <tr>
-          <td>Content 1</td> 
-          <td>Content 2</td>
-          <td>Content 3</td>
-        </tr>
-        <tr> 
-          <td>Content 1</td> 
-          <td>Content 2</td>
-          <td>Content 3</td>
-        </tr>
-        <tr> 
-          <td>Content 1</td> 
-          <td>Content 2</td>
-          <td>Content 3</td>
-        </tr>
-        <tr> 
-          <td rowspan="2">SPAN DOWN</td> 
-          <td>Content 2</td>
-          <td>Content 3</td>
-        </tr>
-        <tr> 
-          <td>Content 2</td>
-          <td>Content 3</td>
-        </tr>
-      </tbody>
-      <tfoot> 
-        <tr>
-          <td colspan="3">Footer1</td>
-        </tr>
-      </tfoot>
-
-      </table>
-    </aside>
-    <article class="sixs back" id="contato">
-      <h1>CONTATE-NOS</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, esse! Minima, nostrum fugit nesciunt eaque cum sapiente, ipsa, vero eos tempora voluptatibus molestias unde laboriosam neque ipsam necessitatibus ducimus. Tempora!</p>
-      <p class="formComentario">Formulário de Contato</p>
-
-      <form action="#" class="gridForm" target="_blank">
-        <div class="form">
-          <legend>Primeiro nome</legend>
-          <input type="text" name="pNome" class="inputText" placeholder="Primeiro nome" id="">
-        </div>
-        <div class="form">
-          <legend>Último nome</legend>
-          <input type="text" name="uNome" class="inputText" placeholder="Último nome">
-        </div>
-        <div class="form">
-          <legend>E-mail</legend>
-          <input type="email" class="inputText" name="email" placeholder="Seu E-mail" required>
-        </div>
-        <div class="formArea">
-          <legend>Sua mensagem</legend>
-          <input name="textArea" class="inputText" id="textArea" minlength="10" maxlength="200" required>
-        </div>
-
-        <div class="button">
-          <button type="button">Enviar mensagem</button>
-        </div>
-      </form>
       
-    </article>
-
-    <footer>
-      <div>
-        
       </div>
-      <p>Feito com ❤️ por <em><a href="https://pt-br.facebook.com/luan.simoes.5203" target="_blank">Luan Simões</a></em></p>
-    </footer>
-  </main>
+
+    </article>
+  </section>
+
+  <section class="five">
+    <h1>PREÇOS</h1>
+    <p>Confira a baixo a tabela com os preços dos produtos anunciados acima, vale a resalva que algum valores poderem ter alteração dependendo do tipo de produto, quantidade e até mesmo endereço do comprador. Qualquer dúvida pode entrar em contato conosco pelo final da página.</p>
+    <table>
+    <caption>Tabela de preços</caption>
+    <thead> 
+      <tr> 
+        <th>Title 1</th> 
+        <th>Title 2</th>
+        <th>Title 3</th>
+      </tr>
+    </thead>
+    <tbody> 
+      <tr>
+        <td>Content 1</td> 
+        <td>Content 2</td>
+        <td>Content 3</td>
+      </tr>
+      <tr> 
+        <td>Content 1</td> 
+        <td>Content 2</td>
+        <td>Content 3</td>
+      </tr>
+      <tr> 
+        <td>Content 1</td> 
+        <td>Content 2</td>
+        <td>Content 3</td>
+      </tr>
+      <tr> 
+        <td rowspan="2">SPAN DOWN</td> 
+        <td>Content 2</td>
+        <td>Content 3</td>
+      </tr>
+      <tr> 
+        <td>Content 2</td>
+        <td>Content 3</td>
+      </tr>
+    </tbody>
+    <tfoot> 
+      <tr>
+        <td colspan="3">Footer1</td>
+      </tr>
+    </tfoot>
+
+    </table>
+  </section>
+
+  <section class="contato back" id="contato">
+    <article class="flexContainer">
+      <div class="textForm flexContent">
+        <h2>CONTATE-NOS</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, esse! Minima, nostrum fugit nesciunt eaque cum sapiente, ipsa, vero eos tempora voluptatibus molestias unde laboriosam neque ipsam necessitatibus ducimus. Tempora!</p>
+      </div>
+      <div class="imgForm flexContent">
+        <img src="img/undraw_notify_re_65on.svg" alt="Ilustração de notificação">
+      </div>
+    </article>
+    <p class="formComentario">Formulário de Contato</p>
+
+    <form action="_blank" class="gridForm" target="_blank">
+      <div class="form">
+        Primeiro nome
+        <input type="text" name="pNome" class="inputText" placeholder="Primeiro nome" id="pNome">
+      </div>
+      <div class="form">
+        Último nome
+        <input type="text" name="uNome" id="uNome" class="inputText" placeholder="Último nome">
+      </div>
+      <div class="form">
+        E-mail
+        <input type="email" class="inputText" id="email" name="email" placeholder="Seu E-mail" required>
+      </div>
+      <div class="formArea">
+        Sua mensagem
+        <input name="textArea" class="inputText" id="textArea" minlength="10" maxlength="200" required>
+      </div>
+
+      <div class="button">
+        <button type="button">Enviar mensagem</button>
+      </div>
+    </form>
+    
+  </section>
+
+  <footer>
+    <div>
+      
+    </div>
+    <p>Feito com ❤️ por <em><a href="https://pt-br.facebook.com/luan.simoes.5203" target="_blank">Luan Simões</a></em></p>
+  </footer>
   
 </body>
 </html>

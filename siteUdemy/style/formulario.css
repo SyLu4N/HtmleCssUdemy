@@ -8,10 +8,46 @@
     --corpadrao: #0A1128;
 }
 
-.sixs > p{
+.flexContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.flexContent{
+    height: auto;
+    width: 100%;
+}
+
+.flexContent.textForm{
+    width: 50%;
+}
+
+.textForm h2{
+    min-width: 460px;
+}
+
+.flexContent.imgForm{
+    width: 50%;
+    flex-grow: 1;
+}
+
+.imgForm img{
+    width:100%;
+    min-width: 500px;
+}
+
+.contato h2{
+    font-size: 4rem;
+}
+
+.contato p{
     margin-top:50px;
     max-width: 550px;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 .formComentario{
