@@ -1,15 +1,14 @@
 @charset "UTF-8";
 
-.grid div:nth-child(6){
-margin-bottom: 100px;
-}
-
 .grid{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 counter-reset: contador;
 }
 
+.grid div:nth-child(6){
+margin-bottom: 100px;
+}
 .grid h2{
     font-size: 3rem;
     position: relative;
