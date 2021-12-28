@@ -2,8 +2,15 @@
 
 .grid{
 display: grid;
-grid-template-columns: repeat(auto-fill, minmax(1fr, 300px));
+grid-template-columns: repeat(3, 1fr);
 counter-reset: contador;
+}
+
+@media(max-width: 1010px){
+    .grid{
+        grid-template-columns: 1fr;
+        padding-bottom: 30px;
+    }
 }
 
 .grid div:nth-child(6){
@@ -42,45 +49,100 @@ padding-top: 100px ;
 .gridGaleria{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
+gap: 30px;
 }
 
-.gridGaleria div{
+.gridGaleria > div{
 min-height: 300px;
-max-height: 300px;
-margin:50px 30px 10px 0px;
+max-height: 360px;
 transition-duration: 300ms;
+width: 100%;
+overflow: hidden;
+border: 3px dashed black;
 }
 
-.anima{
-    border-radius: 1px;
+.anima01 > div{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
 }
 
-.anima:hover{
-    transform: rotate(4deg);
+.anima01 > div:hover{
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);;
 }
 
-.gridGaleria div:nth-child(1){
+.anima02 > div{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.anima02 > div:hover{
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);;
+}
+
+.anima03 > div{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.anima03 > div:hover{
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);;
+}
+
+.anima04 > div{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.anima04 > div:hover{
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);;
+}
+
+.anima05 > div{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.anima05 > div:hover{
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);;
+}
+
+.anima06 > div{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.anima06 > div:hover{
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);;
+}
+
+.anima01 div{
     background-image: url(https://images.nappy.co/uploads/large/7z8a4652-216240540039ysgwc4sml8howtkpiqnufmt2zlr7ukg5zjwl0ukpuxbtymchm1r13pdlkmpdk56scmldqu6ww5ihtt55yytwxzq8muze09z34qh.jpg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
 }
-.gridGaleria div:nth-child(2){
+.anima02 div{
     background-image: url(https://images.nappy.co/uploads/large/high-res-0291-21592073806mjdp46m93upebmpzozjumootrfv3s3vakqxfj0ee7tijthjzkxezgg6pb320qygyvlpw3doh05el4drdu4weoib9f2tj5g63bfjn.jpg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
 }
-.gridGaleria div:nth-child(3){
+.anima03 div{
     background-image: url(https://images.nappy.co/uploads/large/105981622175281ixlsp9coz4renpvq1symi729mubdsktg2p3kjx6hiafutacgqpqmdazpsbyonarpapqfwezavlu4ounkhpiyityeiulpkrextqr4.jpeg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
 }
-.gridGaleria div:nth-child(4){
+.anima04 div{
     background-image: url(https://images.nappy.co/uploads/large/7z8a4648-21624054008wcv7stqkzucbh9kiz91ubzdlxauedxlz3jvchv0mrzd8fsyxjy9m3gzobb3vherahlhb7lgpwm11dvah8v5ckxylpfsz4wcjng44.jpg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
 }
-.gridGaleria div:nth-child(5){
+.anima05 div{
     background-image: url(https://images.nappy.co/uploads/large/21595603663sxxph4bwff7zusaevngn8fnjqxzqetoy0mzcnksyglecxayuyjmqc5vfe7ez05priaddshdame7jpvthz7fwks7g27gpk4wco58m.jpg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
 }
-.gridGaleria div:nth-child(6){
+.anima06 div{
     background-image: url(https://images.nappy.co/uploads/large/7z8a4609-21624053995cazjmrvzhhbfetpzb1kdg4vj0o3tbrq6znmcqvdwgfp65ngjoexaqcbqjv7lromhfrt3ah1zyghe2uhwhwbt9a6jclr8mrf58ore.jpg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 }

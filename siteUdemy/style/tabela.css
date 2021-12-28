@@ -32,6 +32,20 @@ margin: 30px auto;
 max-width: 700px;
 }
 
+@media(max-width: 1010px){
+    .five{
+        overflow: auto;
+        width: 100%;
+    }
+    .five p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    table td, table th{
+        white-space: nowrap;
+    }
+}
+
 table thead{
 background-color: var(--cortable);
 }
@@ -47,7 +61,7 @@ table caption{
 caption-side: top; 
 text-align: left;
 font-style: italic;
-font-size: 1.3vw;
+font-size: 1.3rem;
 margin:0 0 15px 0;
 color: #596066;
 font-weight: 100;
