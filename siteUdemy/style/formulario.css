@@ -8,6 +8,10 @@
     --corpadrao: #0A1128;
 }
 
+.contato{
+    margin: auto;
+}
+
 .flexContainer{
     display: flex;
     flex-wrap: nowrap;
@@ -51,9 +55,18 @@
 }
 
 .formComentario{
-    margin-bottom:10px ;
     font-style: italic;
     font-size: 1.3rem!important;
+    margin: auto;
+    margin-bottom:10px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.formComentario p{
+    font-style: italic;
+    font-size: 1.3rem!important;
+    text-align: left;
 }
 
 .gridForm{
@@ -62,6 +75,7 @@
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(2, 1fr);
+    margin: auto;
 }
 
 .gridForm div{
@@ -146,17 +160,27 @@
     .gridForm div:nth-child(3){
         grid-column-start: 1;
         grid-column-end: 3;
-        padding-right: 30px;
     }
     .gridForm div:nth-child(4){
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 4;
         grid-row-end: 8;
-        padding-right: 30px;
     }
     button{
         margin-top: 10px;
     }
-
+    .inputText.vazio{
+        font-size: 1.7rem;
+        padding-left: 10px;
+        height: 100%;
+        border: 0;
+    }
+    .gridForm{
+        gap: 0;
+    }
+    .form{
+        margin: 0;
+        margin-bottom: 30px;
+    }
 }

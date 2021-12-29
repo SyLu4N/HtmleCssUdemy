@@ -22,10 +22,6 @@ margin: auto;
 font-size: 1.5rem;
 }
 
-.responsivo{
-overflow-x: auto; /* Rolagem x */
-}
-
 table{
 border-collapse: collapse; /* Junta as linhas da tabela */
 width: 100%; /* Ocupando a tela completa */
@@ -35,7 +31,7 @@ max-width: 700px;
 }
 
 @media(max-width: 1010px){
-    .five{
+    .rolagem{
         overflow: auto;
         width: 100%;
     }

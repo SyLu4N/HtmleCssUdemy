@@ -41,7 +41,7 @@
 
       <div class="content one">
         <div class="textOne">
-          <h1>JANEIRO<br> TRAZ-NOS <br> FIREFOX 85</h1>
+          <h1 class="h1">JANEIRO<br> TRAZ-NOS <br> FIREFOX 85</h1>
           <p>Para encerrar janeiro, temos o orgulho de apresentar o lançamento do Firefox 85. <br> Nesta versão, oferecemos suporte para a pseudo classe:
           focus-visible em CSS e devtools associados, e a remoção completa do suporte a Flash do Firefox.</p>
         </div>
@@ -52,7 +52,7 @@
 
     </article>
   </section>
-<!-- --------------------------------- One ------------------------------------- -->
+
   <section class="two">
     <article class="main">
       <h1>TOP 3 Trabalhos</h1>
@@ -116,7 +116,7 @@
 
   <section class="back novidades" id="novidade">
     <article class="main">
-      <h1 class="novidadesBottom">Curiosidades </h1>
+      <h1 class="novidadesBottom h1">Curiosidades </h1>
       <div class="grid">
 
         <div class="contador">
@@ -142,61 +142,64 @@
   <section class="five">
     <h1>PREÇOS</h1>
     <p>Confira a baixo a tabela com os preços dos produtos anunciados acima, vale a resalva que algum valores poderem ter alteração dependendo do tipo de produto, quantidade e até mesmo endereço do comprador. Qualquer dúvida pode entrar em contato conosco pelo final da página.</p>
-    <table>
-    <caption>Tabela de preços</caption>
-    <thead> 
-      <tr> 
-        <th>Title 1</th> 
-        <th>Title 2</th>
-        <th>Title 3</th>
-      </tr>
-    </thead>
-    <tbody> 
-      <tr>
-        <td>Content 1</td> 
-        <td>Content 2</td>
-        <td>Content 3</td>
-      </tr>
-      <tr> 
-        <td>Content 1</td> 
-        <td>Content 2</td>
-        <td>Content 3</td>
-      </tr>
-      <tr> 
-        <td>Content 1</td> 
-        <td>Content 2</td>
-        <td>Content 3</td>
-      </tr>
-      <tr> 
-        <td rowspan="2">SPAN DOWN</td> 
-        <td>Content 2</td>
-        <td>Content 3</td>
-      </tr>
-      <tr> 
-        <td>Content 2</td>
-        <td>Content 3</td>
-      </tr>
-    </tbody>
-    <tfoot> 
-      <tr>
-        <td colspan="3">Footer1</td>
-      </tr>
-    </tfoot>
-
-    </table>
+    <div class="rolagem">
+      <table>
+      <caption>Tabela de preços</caption>
+      <thead>
+        <tr>
+          <th>Title 1</th>
+          <th>Title 2</th>
+          <th>Title 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Content 1</td>
+          <td>Content 2</td>
+          <td>Content 3</td>
+        </tr>
+        <tr>
+          <td>Content 1</td>
+          <td>Content 2</td>
+          <td>Content 3</td>
+        </tr>
+        <tr>
+          <td>Content 1</td>
+          <td>Content 2</td>
+          <td>Content 3</td>
+        </tr>
+        <tr>
+          <td rowspan="2">SPAN DOWN</td>
+          <td>Content 2</td>
+          <td>Content 3</td>
+        </tr>
+        <tr>
+          <td>Content 2</td>
+          <td>Content 3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">Footer1</td>
+        </tr>
+      </tfoot>
+      </table>
+    </div>
   </section>
 
   <section class="contato back" id="contato">
     <article class="flexContainer">
       <div class="textForm flexContent">
-        <h2>CONTATE-NOS</h2>
+        <h2 class="h1">CONTATE-NOS</h2>
         <p>Para entrar em contato conosco, pasta preencher o formulário abaixo, estamos anciosos para saber oque tem a dizer, lembrando que sugestões e críticas são muito bem vindas. Ficamos ao seu aguardo!</p>
       </div>
       <div class="imgForm flexContent">
         <img src="img/undraw_notify_re_65on.svg" alt="Ilustração de notificação">
       </div>
     </article>
-    <p class="formComentario">Formulário de Contato</p>
+    <div class="formComentario">
+      <p>Formulário de Contato</p>
+    </div>
 
     <form action="#" class="gridForm" target="_blank">
       <div class="form">
@@ -205,13 +208,13 @@
       </div>
       <div class="form">
         Último nome
-        <input type="text" name="uNome" id="uNome" class="inputText" placeholder="Último nome">
+        <input type="text" name="uNome" id="uNome" class="inputText vazio" placeholder="Último nome">
       </div>
       <div class="form">
         E-mail
         <input type="email" class="inputText" id="email" name="email" placeholder="Seu E-mail" required>
       </div>
-      <div class="formArea">
+      <div class="formArea form">
         Sua mensagem
         <input name="textArea" class="inputText" id="textArea" minlength="10" maxlength="200" required>
       </div>
