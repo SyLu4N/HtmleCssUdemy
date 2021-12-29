@@ -158,4 +158,8 @@ button:hover{
         grid-row-end: 8;
         padding-right: 30px;
     }
+    button{
+        margin-top: 10px;
+    }
+
 }

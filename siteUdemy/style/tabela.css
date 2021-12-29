@@ -12,12 +12,14 @@ margin: 100px auto;
 
 .five h1{
 margin-bottom: 30px;
+font-size: 4rem;
 }
 
 .five p{
 text-align: justify;
 max-width: 700px;
 margin: auto;
+font-size: 1.5rem;
 }
 
 .responsivo{
