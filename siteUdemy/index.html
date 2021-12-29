@@ -13,12 +13,16 @@
 </head>
 
 <body>
-  <header>
-    <div class="logo">
+
+  <input type="checkbox" id="closeMenu" class="closeMenu" aria-label="Close menu" role="button">
+  <label for="closeMenu" title="Close Menu" class="closeMenuLabel"></label>
+
+  <header class="menu">
+    <div class="logo" onclick="getElementById('closeMenu').checked = false">
       <h1><a href="#">logo</a></h1>
     </div>
     <nav class="nav">
-      <ul>
+      <ul onclick="getElementById('closeMenu').checked = false">
         <li><a href="#">Intro</a></li>
         <li><a href="#top3">TOP 3</a></li>
         <li><a href="#galeria">Galeria</a></li>
@@ -27,11 +31,11 @@
       </ul>
     </nav>
   </header>
-<!-- ------------------------------- HEADER ------------------------------------ -->
+
   <section class="back"> 
     <article class="main container">
 
-      <abbr title="Subir  "><a href="#" class="intro" role="button"></a></abbr>
+      <abbr title="Ir ao ínico da página"><a href="#" class="intro" role="button"></a></abbr>
       
 
       <div class="content one">
@@ -211,8 +215,8 @@
         <input name="textArea" class="inputText" id="textArea" minlength="10" maxlength="200" required>
       </div>
 
-      <div class="button">
-        <button type="button">Enviar mensagem</button>
+      <div>
+        <button type="button" class="button">Enviar mensagem</button>
       </div>
     </form>
     
