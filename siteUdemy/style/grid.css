@@ -143,7 +143,8 @@
     background-image: url(https://images.nappy.co/uploads/large/7z8a4609-21624053995cazjmrvzhhbfetpzb1kdg4vj0o3tbrq6znmcqvdwgfp65ngjoexaqcbqjv7lromhfrt3ah1zyghe2uhwhwbt9a6jclr8mrf58ore.jpg?auto=format&fm=jpg&w=1280&q=75);
     background-size: cover;
     
-}@media(max-width: 1010px){
+}
+@media(max-width: 1010px){
     .grid{
         grid-template-columns: 1fr;
         padding-bottom: 30px;
