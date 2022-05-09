@@ -18,6 +18,7 @@ Meu aprendizado na Udemy
 ✓ Working With Grid! <br>
 ✓ Working With Repeat! <br>
 ✓ Working With Keyframes! <br>
+✓ Working With Responsiveness! <br>
 
 <h1>✅Project</h1>
 
