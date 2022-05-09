@@ -21,7 +21,7 @@ Meu aprendizado na Udemy
 
 <h1>✅Project</h1>
 
- <h3>📚 Videos</h3> 
+ <h3>📚 Site Responsivo</h3> 
 
  <div align="center">
    <a href="https://sylu4n.github.io/HtmleCssUdemy/siteUdemy/index.html"><img src="./assets/udemy.gif" alt="Apresentação do Site"></a>
